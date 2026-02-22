@@ -38,6 +38,6 @@ export function IconGenerator() {
         setIsGenerating(false)
       }
     },
-    []
+    [selectedStyle]
   )
 }
